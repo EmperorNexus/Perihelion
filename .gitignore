@@ -3,8 +3,6 @@ node_modules/
 **/dist/
 build/
 *.tsbuildinfo
-.env
-.env.*
 !.env.example
 npm-debug.log*
 yarn-error.log*
@@ -54,7 +52,6 @@ TTL-ARCHIVAL-TESTING.md
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/*
 !.vscode/extensions.json
 *.log
 *.swp
@@ -70,3 +67,7 @@ Thumbs.db
 reports/mutation/
 mutants.out/
 mutants.out.old/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
